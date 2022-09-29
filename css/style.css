@@ -27,6 +27,33 @@
     border: 1px solid #000
 }
 
+.navbar-toggler {
+    border: 3px solid #000;
+    color: #000
+}
+
+.navbar-toggler:focus {
+    border-color: #fff;
+    color: transparent
+}
+
+.navbar-toggler-icon {
+    display: none;
+}
+
+.navbar-toggler-bar {
+    display: block;
+    margin: 5px 0;
+    width: 35px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+.navbar-toggler:focus .navbar-toggler-bar {
+    background-color: #fff
+}
+
 section {
     height: 1000px;
     font-weight: bold;
